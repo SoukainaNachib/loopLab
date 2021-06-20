@@ -1,0 +1,47 @@
+body {
+    background: #333;
+    color: #fff;
+  }
+.navbar{
+    border-bottom:#008ed6 3px solid ;
+    opacity: 0.8;
+}
+#home{
+    background: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+#home .home-inner{
+    padding-top: 150px;
+}
+#home .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+#home .fas,
+#create-section .fas{
+    color: #008ed6;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+#explore-section .fas,
+#share-section .fas{
+    color: #fff;
+    background:#333 ;
+    border-radius: 5px;
+    padding: 5px;
+}
+#create-head-section,
+#share-head-section{
+    background-color: #007BFF;
+    color: #fff;
+}
